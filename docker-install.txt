@@ -26,7 +26,10 @@ $ sudo apt-get install docker-ce docker-ce-cli containerd.io
 
 Verify that Docker CE
 
-$ docker --version
-$ docker info
-$ docker ps
+$ sudo docker --version
+$ sudo docker info
+$ sudo docker ps
 
+Run container:
+
+$ sudo docker run -p 8080:80 --name hello-world hello-world 
