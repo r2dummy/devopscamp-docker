@@ -30,6 +30,14 @@ $ sudo docker --version
 $ sudo docker info
 $ sudo docker ps
 
+Add 
+$ cd /var/run
+$ ll
+$ ls -al dock*
+$ cat /etc/group | grep docker
+$ usermod -a -G docker user
+$ cat /etc/group | grep docker
+
 Run container:
 
 $ sudo docker run -p 8080:80 --name hello-world hello-world 
