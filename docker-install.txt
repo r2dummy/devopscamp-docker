@@ -40,7 +40,7 @@ $ cat /etc/group | grep docker
 
 Run container:
 
-$ sudo docker run -p 8080:80 --name hello-world hello-world 
+$ sudo docker run -p 8080:80 --name hello-world ikukulevskyy/hello-world
 
 Most current Linux distributions (RHEL, CentOS, Fedora, Ubuntu 16.04 and higher) use systemd to manage which services start when the system boots. Ubuntu 14.10 and below use upstart.
 
