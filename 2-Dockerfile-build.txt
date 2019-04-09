@@ -16,5 +16,5 @@ $ docker logout
 Run our Docker container 
 docker run -t -d -p 8080:80 --name $DOCKER_NAME $DOCKER_ACCOUNT/$DOCKER_NAME:$IMG_TAG
 
-Cheack 
+Check proccess of Docker container
 $ docker ps
