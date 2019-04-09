@@ -4,8 +4,6 @@ services:
     build: 
       context: .
       dockerfile: Dockerfile
-    deploy:
-      replicas: 2
     ports:
       - "5000:5000"
   redis:
