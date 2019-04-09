@@ -18,3 +18,7 @@ docker run -t -d -p 8080:80 --name $DOCKER_NAME $DOCKER_ACCOUNT/$DOCKER_NAME:$IM
 
 Check proccess of Docker container
 $ docker ps
+
+Stop and remove Docker container
+$ docker stop $DOCKER_NAME
+$ docker rm $DOCKER_NAME
