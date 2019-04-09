@@ -22,3 +22,6 @@ $ docker ps
 Stop and remove Docker container
 $ docker stop $DOCKER_NAME
 $ docker rm $DOCKER_NAME
+
+Check proccess of Docker container again
+$ docker ps
