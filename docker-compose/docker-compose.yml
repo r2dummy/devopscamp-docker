@@ -6,7 +6,7 @@ services:
      dockerfile: Dockerfile   
    ports:
      - "8080:80"
-   command: apt install htop
+   command: apt install mc
  redis:
    image: "redis:5.0.4"
    ports:
