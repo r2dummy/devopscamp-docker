@@ -1,0 +1,11 @@
+First Login to Docker Hub
+$ docker login
+
+Build docker image from Dockerfile
+$ docker build -t $DOCKER_NAME:$IMG_TAG .
+
+Set new tag for docker image 
+$ docker tag $DOCKER_REPO:$IMG_TAG $DOCKER_ACCOUNT/$DOCKER_NAME:$IMG_TAG
+
+Push your docker image to docker hub
+$ docker push $DOCKER_ACC/$DOCKER_REPO:$IMG_TAG
