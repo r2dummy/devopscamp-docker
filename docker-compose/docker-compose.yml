@@ -1,20 +1,20 @@
 version: '3'
 services:
   web:
-    build:
+    build: 
       context: .
       dockerfile: Dockerfile
-      ports:
-        - "8080:80"
-      command: apt install mc
+    ports:
+      - "5000:5000"
+    command: apt install mc
   redis:
-    image: "redis:5.0.4"
-    ports:
+    image: "redis:5.0.4"
+    ports:
       - "6379:6379"
-  mysql:
-    command: mysql
-    image: mysql:8.0.15
-    ports:
+  mysql:
+    command: mysql
+    image: "mysql:8.0.15"
+    ports:
       - "3306:3306"
-    volumes:
+    volumes:
       - /opt/mysql:/var/lib/mysql/
