@@ -1,5 +1,5 @@
 FROM ubuntu:18.04
-MAINTAINER Ivan Kukulevskyy <i.kukulevskyy@bpmonline.com>
+MAINTAINER Ivan Kukulevskyy <i.kukulevskyy@gmail.com>
 RUN apt update
 RUN apt install -y nginx
 RUN echo 'Hello World!!!' \
