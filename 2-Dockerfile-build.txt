@@ -9,3 +9,6 @@ $ docker tag $DOCKER_REPO:$IMG_TAG $DOCKER_ACCOUNT/$DOCKER_NAME:$IMG_TAG
 
 Push your docker image to docker hub
 $ docker push $DOCKER_ACC/$DOCKER_REPO:$IMG_TAG
+
+After push success your docker image, you can log out from Docker Hub
+$ docker logout
