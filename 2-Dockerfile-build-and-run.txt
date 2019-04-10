@@ -28,3 +28,6 @@ $ docker rm $DOCKER_NAME
 
 Check proccess of Docker container again
 $ docker ps
+
+Run Docker container in interactive mode
+$ docker run -it centos:latest /bin/bash
