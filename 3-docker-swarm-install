@@ -1,3 +1,13 @@
+# Master Node
 $ docker swarm init
 
+#Worker node
 $ docker swarm join --token ????????????????????? 10.0.0.1:2377
+
+#Master Node
+$ docker node ls
+
+#Install Portainer Web UI for Docker Swarm
+
+$ curl -L https://downloads.portainer.io/portainer-agent-stack.yml -o portainer-agent-stack.yml
+$ docker stack deploy --compose-file=portainer-agent-stack.yml portainer
